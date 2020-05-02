@@ -11,6 +11,7 @@
     BarTextColor="White"
     mc:Ignorable="d"
     x:Class="AppDuolingoClone.Views.MainPage"
+    Title="App Title"
 >
     <TabbedPage.Children>
         <views:LessonsView />
