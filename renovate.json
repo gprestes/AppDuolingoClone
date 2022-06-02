@@ -1,14 +1,16 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "packageRules": [{
-        "matchDepTypes": ["devDependencies"],
-        "automerge": true
-    }, {
-        "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-        "automerge": true
-    }],
+            "matchDepTypes": ["devDependencies"],
+            "automerge": true
+        },
+        {
+            "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+            "automerge": true
+        }
+    ],
     "lockFileMaintenance": {
         "enabled": true,
-        "extends": "schedule:daily"
+        "extends": ["schedule:daily"]
     }
 }
