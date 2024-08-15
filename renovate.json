@@ -12,5 +12,8 @@
     "lockFileMaintenance": {
         "enabled": true,
         "extends": ["schedule:daily"]
-    }
+    },
+    "extends": [
+    "config:recommended"
+  ]
 }
